@@ -1,0 +1,23 @@
+// tsconfig.json
+
+{
+  "compilerOptions": {
+    /* Project Structure and Output */
+    "target": "es2020",                             /* Target modern JavaScript features */
+    "module": "commonjs",                           /* Use CommonJS module system for Node */
+    "rootDir": "./src",                             /* Your TypeScript source files are in the 'src' folder */
+    "outDir": "./dist",                             /* The compiled JavaScript files go into the 'dist' folder */
+    "esModuleInterop": true,                        /* Allows default imports from CommonJS modules (like Express) */
+    "forceConsistentCasingInFileNames": true,       /* Enforces correct casing */
+    
+    /* TypeORM Requirements */
+    "experimentalDecorators": true,                 /* Enable support for experimental decorators (needed for TypeORM entities) */
+    "emitDecoratorMetadata": true,                  /* Emit metadata for decorators (needed for TypeORM entities) */
+
+    /* Type Checking and Strictness */
+    "strict": true,                                 /* Enable all strict type-checking options */
+    "skipLibCheck": true,                           /* Skip type checking of declaration files */
+    "lib": ["es2020"]                               /* Includes global types for 'console', 'process', and modern JS features */
+  },
+  "include": ["src/**/*.ts"]                        /* Tells the compiler which files to look for */
+}
