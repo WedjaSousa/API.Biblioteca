@@ -68,7 +68,7 @@ Siga estes passos para ter o projeto rodando localmente.
 ---
 
 <div align="center">
-  👩‍💻 Projeto desenvolvido por <em><a href="https://github.com/WedjaSousa">Wedja Sousa</a> em 06/12/2025 para a Disciplina Coding Mobile ministrada pelo Professor Geraldo | O desenvolvimento levou mais tempo devido à complexidade do projeto e à curva de aprendizado necessária para entender todos os comandos e estruturas.</em>
+ Projeto desenvolvido por <em><a href="https://github.com/WedjaSousa">Wedja Sousa</a> em 06/12/2025.</em>
 </div>
      ```
 
